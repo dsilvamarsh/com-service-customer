@@ -18,7 +18,6 @@ import com.tutorial.repository.CustomerRepo;
 
 
 @RestController
-
 public class CustomerController {
 	
 	private static final Logger log = LogManager.getLogger(CustomerController.class.getName());

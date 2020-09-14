@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(basePackages = {"com.tutorial.repository"})
 @EntityScan(basePackages = {"com.tutorial.beans"})
 @EnableTransactionManagement
+
 public class Application {
 	private static final Logger logger = LogManager.getLogger(Application.class.getName());
 
